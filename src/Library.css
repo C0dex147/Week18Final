@@ -1,0 +1,114 @@
+.library-head{
+  text-align: center;
+  color: white;
+  font-size: 60px;
+}
+.book-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
+  width: 50%;
+}
+
+
+.form-label {
+  margin: 10px 0;
+}
+
+.form-input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+
+.form-button {
+  cursor: pointer;
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 10px 24px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 10px 2px;
+  transition-duration: 0.4s;
+  border-radius: 5px;
+}
+
+.form-button:hover {
+  box-shadow: 0 10px 16px 0 rgba(0,0,0,0.24), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+table {
+  border-collapse: collapse;
+  margin: 0 auto; /* Center the table */
+  width: 80%; /* Adjust as needed */
+  border: 1px solid #444444; /* Adjust as needed */
+  border-radius: 10px;
+}
+
+/* This will add a border to each cell (td) and header cell (th) */
+th, td {
+  border: 3px solid #555454; /* Adjust as needed */
+  padding: 10px; /* Adjust as needed */
+  text-align: center;
+  border-radius: 10px;
+}
+
+
+.edit-button, .delete-button {
+  border: none;
+  padding: 10px 20px;
+  color: white;
+  text-align: center;
+  cursor: pointer;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  transition-duration: 0.4s;
+  margin: 10px 2px;
+  border-radius: 10px;
+}
+
+.edit-button {
+  background-color: #4CAF50;
+}
+
+.edit-button:hover {
+  background-color: #45a049;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.delete-button {
+  background-color: #f44336;
+}
+
+.delete-button:hover {
+  background-color: #da190b;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+th{
+  font-size: 20px;
+}
+
+input{
+  font-size:15px;
+}
+
+.contact-head{
+  text-align: center;
+  color: white;
+  font-size: 60px;
+
+}
+
+.contact-para{
+  text-align: center;
+  font-size: 30px;
+}
